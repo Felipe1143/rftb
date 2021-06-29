@@ -1,0 +1,31 @@
+Chests:
+   Count: 0
+   Type:
+      A:
+       Title: '&nDiamond sword'
+       Items:
+         1: 
+           ID: 167
+           Data: 0
+           Amount: 2
+           Name: '&bDiamond sword'
+           Effects:
+             - SLOWNESS
+           Enchantments:
+             - ARROW_DAMAGE:1
+             - ARROW_FIRE
+      B:
+       Items:
+         1: 
+           ID: 167
+           Data: 0
+           Amount: 2
+           Name: '&bDown sword'
+           Effects:
+             - SLOWNESS
+           Enchantments:
+             - ARROW_DAMAGE:1
+             - ARROW_FIRE
+      
+#------------------------------------------------# 
+Chests placed:

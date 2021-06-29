@@ -1,0 +1,41 @@
+Signs:
+   Waiting format:
+     Block ID: 95
+     Block Data: 5
+     Line 1: '&a[RFTB]'
+     Line 2: '&e%map%'
+     Line 3: '&aWaiting...'
+     Line 4: '&8%players%/%maxplayers%'
+   Starting format:
+     Block ID: 95
+     Block Data: 4 
+     Line 1: '&a[RFTB]'
+     Line 2: '&a%map%'
+     Line 3: '&eStarting'
+     Line 4: '&8%players%/%maxplayers%'
+   InGame format:
+     Block ID: 95
+     Block Data: 14
+     Line 1: '&a[RFTB]'
+     Line 2: '&a%map%'
+     Line 3: '&cIn-Game'
+     Line 4: '&8%players%/%maxplayers%'
+   Reset format:
+     Block ID: 95
+     Block Data: 10
+     Line 1: '&a[RFTB]'
+     Line 2: '&a%map%'
+     Line 3: '&cReseting...'
+     Line 4: '&8%players%/%maxplayers%'
+   Teleport to end:
+     Line 1: '¡Click to telport'
+     Line 2: 'to end!'
+     Line 3: ''
+     Line 4: ''
+   Teleport to start:
+     Line 1: '¡Click to telport'
+     Line 2: 'to start!'
+     Line 3: ''
+     Line 4: ''
+#------------------------------------------------#     
+   

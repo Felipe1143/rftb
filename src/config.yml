@@ -1,0 +1,268 @@
+Items:
+    Checkpoint:
+        Enabled: true
+        ID: 138
+        Data: 0
+        Name: '&aCheckpoint &7(Right-Click)'
+        Slot: 9
+        Amount: 5
+        Lore:
+        - '&7Place the block to set your'
+        - '&7checkpoint!'
+    Arenas:
+        Enabled: true
+        ID: 381
+        Data: 0
+        Name: '&aArenas &7(Right-Click)'
+        Slot: 1   
+    Vote:
+        Enabled: true
+        ID: 399
+        Data: 0
+        Name: '&aVote &7(Right-Click)'
+        Slot: 1    
+#------------------------------------------------#             
+Stats:
+    Mode: YML #OR MYSQL
+#------------------------------------------------#     
+MySQL:
+    Host: localhost
+    Port: 3306
+    Database: RFTBase
+    Username: root 
+    Password: 123
+    Table name: RFTB
+#------------------------------------------------#            
+Chat:
+    Lobby format: '&a-> &f%player%: %msg%'
+    Game format: '&c-> &f%player%: %msg%'
+#------------------------------------------------#     
+Game:
+    #COMMANDS RUNNING FROM CONSOLE!
+    Commands run on join arena:
+    -
+    -
+    Commands run on arena start:
+    -
+    -
+    Commands run on select beast:
+    -
+    -
+    Commands run on leave arena:
+    -
+    -
+    Commands run for winners:
+    -
+    -
+    Commands run on arena restart:
+    -
+    -
+    Start time: 30
+    End time: 30
+    #Set time in minutes (-1 to infinite)
+    Time limit: 5
+#------------------------------------------------#     
+Menus:
+    Games:
+        Title: '&nGames menu'
+        Waiting format:
+            ID: 159
+            Data: 5
+            Name: '&a&o%map%'
+            Lore:
+            - ''
+            - '&7Players:&a %players%/%max%'
+            - '&7Status: &aWaiting...'
+            - ''
+            - '&aClick to join arena!'
+        Starting format:
+            ID: 159
+            Data: 4
+            Name: '&e&o%map%'
+            Lore:
+            - ''
+            - '&7Players:&a %players%/%max%'
+            - '&7Status: &eStarting'
+            - ''
+            - '&aClick to join arena!'
+        InGame format:
+            ID: 159
+            Data: 14
+            Name: '&c&o%map%'
+            Lore:
+            - ''
+            - '&7Players:&a %players%/%max%'
+            - '&7Status: &cInGame'
+            - ''
+            - '&aPlease, join an another arena!'  
+    Vote:
+        Title: '&nVote menu'
+        Mode:
+            ID: 159
+            Data: 5
+            Name: '&aMode'
+            Lore:
+            - ''
+            - '&7Fast: &a%mode_fast% votes'
+            - '&7Normal: &a%mode_normal% votes'
+            - ''
+            - '&aLEFT CLICK &7to vote mode FAST'
+            - '&aRIGHT CLICK &7to vote mode NORMAL'  
+        Time:
+            ID: 159
+            Data: 5
+            Name: '&aTime'
+            Lore:
+            - ''
+            - '&7Storm: &a%time_storm% votes'
+            - '&7Normal: &a%time_normal% votes'
+            - ''
+            - '&aLEFT CLICK &7to vote time STORM'
+            - '&aRIGHT CLICK &7to vote time NORMAL' 
+        Hearts:
+            ID: 159
+            Data: 5
+            Name: '&aHearts'
+            Lore:
+            - ''
+            - '&7Double: &a%hearts_double% votes'
+            - '&7Normal: &a%hearts_normal% votes'
+            - ''
+            - '&aLEFT CLICK &7to vote hearts DOUBLE'
+            - '&aRIGHT CLICK &7to vote hearts NORMAL'             
+    Top players:
+        Title: '&nTop Players'
+        Rows: 4
+        Items:
+            Top kills:
+                Enabled: true
+                ID: 276
+                Data: 0
+                Name: '&aTop killers'
+                Slot: 11
+                Lore:
+                - '&a-> &7Top scores:'
+                - '&a    #1 %player_1% &7(%score_1% kills)'  
+                - '&a    #2 %player_2% &7(%score_2% kills)'  
+                - '&a    #3 %player_3% &7(%score_3% kills)'  
+                - '&a    #4 %player_4% &7(%score_4% kills)'  
+                - '&a    #5 %player_5% &7(%score_5% kills)' 
+                - ''
+                - '&7Your kills: &a%kills%'
+            Top games:
+                Enabled: true
+                ID: 378
+                Data: 0
+                Name: '&aTop games played'
+                Slot: 13
+                Lore:
+                - '&a-> &7Top scores:'
+                - '&a    #1 %player_1% &7(%score_1% games)'  
+                - '&a    #2 %player_2% &7(%score_2% games)'  
+                - '&a    #3 %player_3% &7(%score_3% games)'  
+                - '&a    #4 %player_4% &7(%score_4% games)'  
+                - '&a    #5 %player_5% &7(%score_5% games)' 
+                - ''
+                - '&7Your games: &a%games%'                
+            Top deaths:
+                Enabled: true
+                ID: 331
+                Data: 0
+                Name: '&aTop deaths'
+                Slot: 15
+                Lore:
+                - '&a-> &7Top scores:'
+                - '&a    #1 %player_1% &7(%score_1% deaths)'  
+                - '&a    #2 %player_2% &7(%score_2% deaths)'  
+                - '&a    #3 %player_3% &7(%score_3% deaths)'  
+                - '&a    #4 %player_4% &7(%score_4% deaths)'  
+                - '&a    #5 %player_5% &7(%score_5% deaths)' 
+                - ''
+                - '&7Your deaths: &a%deaths%'    
+            Top time:
+                Enabled: true
+                ID: 384
+                Data: 0
+                Name: '&aTop time played'
+                Slot: 17
+                Lore:
+                - '&a-> &7Top scores:'
+                - '&a    #1 %player_1% &7(%score_1%)'  
+                - '&a    #2 %player_2% &7(%score_2%)'  
+                - '&a    #3 %player_3% &7(%score_3%)'  
+                - '&a    #4 %player_4% &7(%score_4%)'  
+                - '&a    #5 %player_5% &7(%score_5%)' 
+                - ''
+                - '&7Your time played: &a%time_played%'     
+            Top wins:
+                Enabled: true
+                ID: 322
+                Data: 0
+                Name: '&aTop wins'
+                Slot: 23
+                Lore:
+                - '&a-> &7Top scores:'
+                - '&a    #1 %player_1% &7(%score_1% wins)'  
+                - '&a    #2 %player_2% &7(%score_2% wins)'  
+                - '&a    #3 %player_3% &7(%score_3% wins)'  
+                - '&a    #4 %player_4% &7(%score_4% wins)'  
+                - '&a    #5 %player_5% &7(%score_5% wins)' 
+                - ''
+                - '&7Your wins: &a%wins%'                     
+#------------------------------------------------#                                         
+Scoreboards:
+    Title: '&e&lRUN FROM THE BEAST'
+    Lobby:
+    - ''
+    - '&fPlayer: &a%player%'
+    - ''
+    - '&fDeaths:&c %deaths%'
+    - '&fKills:&a %kills%'
+    - '&fGames:&e %games%'
+    - '&fWins:&6 %wins%'
+    - '&fBeast killed: %beast_kills%'
+    - ''
+    - '&emc.yourip.com'
+    Waiting:
+    - ''
+    - '&fMap: &a%map%'
+    - '&fStatus: &aWaiting...'
+    - ''
+    - '&fPlayers to start:&a %players%/%min%'
+    - ''
+    - '&emc.yourip.com'
+    Starting:
+    - ''
+    - '&fMap: &a%map%'
+    - '&fStatus: &eStarting'
+    - ''
+    - '&fThe game start in:&a %seconds%'
+    - ''
+    - '&emc.yourip.com'
+    InGame:
+    - ''
+    - '&fMap: &a%map%'
+    - '&fStatus: &aInGame'
+    - '&fGame end in: &c%end_time%'
+    - ''
+    - '&fRunners alive:&a %players%'
+    - '&fBeast: &c%beast%'
+    - ''
+    - '&fDouble jumps:&e %jumps%'
+    - '&fTime played:&b %map_time%'
+    - '&fBeast distance:&a %beast_distance% blocks'
+    - ''
+    - '&emc.yourip.com'
+    Reset:
+    - ''
+    - '&fMap: &a%map%'
+    - '&fStatus: &aReseting...'
+    - ''
+    - '&fInformation:'
+    - '&a-> &fWinner:&a %winners%'
+    - ''
+    - '&fTime played:&a %map_time%'
+    - '&fGame restart in:&a %seconds_restart%'
+    - ''
+    - '&emc.yourip.com'
+#------------------------------------------------#     

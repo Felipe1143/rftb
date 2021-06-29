@@ -1,0 +1,9 @@
+name: RFTB
+main: com.mancosyt.rftb.RFTB
+author: Felipe211
+version: 1.0
+load: POSTWORLD
+depend: [Multiverse-Core]
+commands:
+  rftb:
+   description: Run From The Beast main command

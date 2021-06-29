@@ -1,0 +1,40 @@
+Game messages:
+    Arena join: '&a> %player% &fhas join! &a(%players%/%max%)'
+    Already in a game: '&cYou are already in a game!'
+    Game start: '&aThe game has started!' 
+    Player leave: '&aTeleporting to lobby... ¡Finish!'
+    Player map: '&c> %player% has quit!'
+    Beast selected: '&a> &fThe &a&lBEAST &fis &a%beast%&f!'
+    Checkpoint place: '&aCheckpoint placed successfully!'
+    Checkpoint is placed: '&aCheckpoint is placed!'
+    Checkpoint teleport: '&aTeleporting to Checkpoint...'
+    Checkpoint not setted: '&cPlease, set your checkpoint!'
+    Player death: '&a> %player% &fkilled by &c%killer%'
+    Runners win broadcast: '&a> &fThe &a&lRUNNERS &fwin in &a%map%'
+    Beast win broadcast: '&a> &fThe &a&lBEAST &fwin in &a%map%'
+    Vote successfully: "&a> &fHas voted for &a%vote%"
+    Beast: ''
+#------------------------------------------------#    
+Error messages:
+    Leave error: '&cThe command is only in game!'
+    Permission error: '&cYou not have permission!'
+    Map full: '&cThe map %map% is full!'
+    Map already started: '&cThe map %map% has already started. Please select other map!'
+    Player already vote: '&cYou have already voted!'
+#------------------------------------------------#         
+Time:
+    ActionAPI: true    
+    Lobby message: '&a> Best Run From The Beast plugin!'
+    Waiting message: '&aWaiting players... (%players%/%min%)'
+    Starting message: '&aThe game start in %seconds%!'
+    InGame message: '&a> &fDistance from beast: &a%beast_distance% blocks'
+    Reseting message: '&aThe game reset in %seconds_restart%!'
+#------------------------------------------------#        
+    Title: true
+    1: ''
+    2: '&c%seconds%'
+#------------------------------------------------#     
+    Chat: true
+    5 seconds: '&aThe game start in %seconds%!'
+#------------------------------------------------#
+    Sound: true
